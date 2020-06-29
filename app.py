@@ -118,7 +118,7 @@ def massTestProxies(listOfProxies):
 			# Output saying the proxy was succesful
 		except Exception as exp:
 			# This means the proxy failed
-			print exp
+			print (exp)
 			# Prints the exception string
 			print("proxy: {} failed".format(proxy))
 		return
